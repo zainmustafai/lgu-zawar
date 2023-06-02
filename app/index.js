@@ -89,7 +89,8 @@ const styles = StyleSheet.create({
   logo: {
     borderRadius: 500,
     width: 200,
-    height: 200
+    height: 200,
+    marginTop:120
   },
   inputContainer: {
     flex: 1,
