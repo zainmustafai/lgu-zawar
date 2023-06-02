@@ -7,13 +7,11 @@ import { Stack} from "expo-router";
 const Home = () => {
   return (
     <SafeAreaView style={styles.container}>
-
       <Stack.Screen
         options={{
-          headerShown:true,
+          headerShown:false,
         }}
       />
-
       <ImageBackground
         source={require('../assets/splashbg.png')}
         style={styles.splash}

@@ -1,6 +1,6 @@
 import { View, ScrollView, Text, StyleSheet, TouchableOpacity, Platform} from 'react-native'
 import React from 'react'
-import AnnouncementCard from '../../components/AnnouncementCard/AnnouncementCard'
+import AnnouncementCard from '../components/AnnouncementCard/AnnouncementCard'
 import { Picker } from '@react-native-picker/picker';
 
 // FAKE DATA ARRAY
