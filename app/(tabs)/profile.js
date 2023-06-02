@@ -1,5 +1,6 @@
 import { View, Text, ScrollView, TextInput, StyleSheet, Image } from 'react-native'
 import React from 'react'
+import { Link } from 'expo-router'
 
 const Profile = () => {
   return (
@@ -8,6 +9,9 @@ const Profile = () => {
         <Image source={require('./avatar.png')} style={styles.avatar} />
         <Text style={styles.nameText} >Shazil Hammad Ali</Text>
         <Text style={styles.classText}>Class VII A</Text>
+        <Link href={'/studentdashboard/1'} style={{ padding: 8,margin:8, backgroundColor:'#fff' }}>
+          Go To Student Dashboard
+        </Link>
       </View>
       <ScrollView style={styles.inputContainer} >
         <TextInput placeholder='Roll Number' style={styles.input} />
@@ -48,16 +52,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  nameText:{
-    color:'#fff',
-    marginTop:2,
-    fontSize:20,
-    fontWeight:'500'
+  nameText: {
+    color: '#fff',
+    marginTop: 2,
+    fontSize: 20,
+    fontWeight: '500'
   },
-  classText:{
-    color:'#fff',
-    marginVertical:2,
-    fontSize:12,
+  classText: {
+    color: '#fff',
+    marginVertical: 2,
+    fontSize: 12,
   },
   avatar: {
     height: 150,

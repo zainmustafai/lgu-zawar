@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'react-native'
 import React from 'react'
 import SectionHeading from '../../components/SectionHeading/SectionHeading'
-import Icon from 'react-native-vector-icons/FontAwesome'; // Assuming you want to use FontAwesome icons
+import Icon from 'react-native-vector-icons/FontAwesome';
 import FlexBetween from '../../components/FlexBetween/FlexBetween';
 import Card from '../../components/Card/Card';
 
@@ -77,7 +77,7 @@ const Teacherdashboard = () => {
 
             {/*ESSENTIALS SECTION HEADING */}
             <View style={{
-                padding: 16,
+                padding: 16
             }}>
                 <SectionHeading fontSize={26} >Essentials</SectionHeading>
             </View>
