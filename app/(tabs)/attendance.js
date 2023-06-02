@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
 import { Calendar } from 'react-native-calendars'
 import FlexBetween from '../../components/FlexBetween/FlexBetween'
@@ -13,7 +13,7 @@ const attendance = () => {
         navigation.push('/details/1');
     }
     return (
-        <View>
+        <ScrollView>
             <FlexBetween>
                 <SectionHeading fontSize={36} >Machine Learning</SectionHeading>
             </FlexBetween>
@@ -24,7 +24,7 @@ const attendance = () => {
                 <LargeButton number={10} text={"TOTAL PRESENT"} colorcode={"#B29EFF"} />
                 <LargeButton number={10} text={"TOTAL PRESENT"} colorcode={"#FF3F00"} />
             </FlexBetween>
-        </View>
+        </ScrollView>
     )
 }
 

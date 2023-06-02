@@ -9,7 +9,7 @@ const Profile = () => {
         <Image source={require('./avatar.png')} style={styles.avatar} />
         <Text style={styles.nameText} >Shazil Hammad Ali</Text>
         <Text style={styles.classText}>Class VII A</Text>
-        <Link href={'/studentdashboard/1'} style={{ padding: 8,margin:8, backgroundColor:'#fff' }}>
+        <Link href={'studentdashboard/1'} style={{ padding: 8,margin:8, backgroundColor:'#fff' }}>
           Go To Student Dashboard
         </Link>
       </View>

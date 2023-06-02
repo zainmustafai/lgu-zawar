@@ -20,10 +20,9 @@ const styles = StyleSheet.create({
     alignItems:'center',
     backgroundColor: '#007bff',
     minHeight:200,
-    width:200,
     borderRadius: 10,
-    padding: 16,
-    margin: 16,
+    width:150,
+    padding: 10,
   },
   cardContent: {
     flexDirection: 'column',

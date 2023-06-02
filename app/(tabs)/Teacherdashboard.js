@@ -1,5 +1,4 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'react-native'
-import React from 'react'
 import SectionHeading from '../../components/SectionHeading/SectionHeading'
 import Icon from 'react-native-vector-icons/FontAwesome';
 import FlexBetween from '../../components/FlexBetween/FlexBetween';
@@ -82,12 +81,10 @@ const Teacherdashboard = () => {
                 <SectionHeading fontSize={26} >Essentials</SectionHeading>
             </View>
             {/* ESSENTIALS CARDS */}
-            <View>
                 <FlexBetween>
                     <Card title={"Upcomming Events"} iconName={"heart"} />
                     <Card title={"Attendance"} iconName={"calendar"} />
                 </FlexBetween>
-            </View>
 
 
         </ScrollView>
