@@ -1,6 +1,6 @@
-import { View, ScrollView, Text, StyleSheet, TouchableOpacity, Platform} from 'react-native'
+import { View, ScrollView, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native'
 import React from 'react'
-import AnnouncementCard from '../components/AnnouncementCard/AnnouncementCard'
+import AnnouncementCard from '../../components/AnnouncementCard/AnnouncementCard'
 import { Picker } from '@react-native-picker/picker';
 
 // FAKE DATA ARRAY
@@ -66,7 +66,7 @@ const announcements = () => {
         <ScrollView style={styles.main}>
             <View style={styles.controls}>
                 <TouchableOpacity style={{ backgroundColor: '#B29EFF', padding: 8, borderRadius: 10, }} >
-                    <Text style={{color:'#ffffff'}}>
+                    <Text style={{ color: '#ffffff' }}>
                         + NEW
                     </Text>
                 </TouchableOpacity>
@@ -116,16 +116,16 @@ const styles = StyleSheet.create({
         width: 150,
         ...Platform.select({
             ios: {
-              shadowColor: 'gray',
-              shadowOffset: { width: 0, height: 2 },
-              shadowOpacity: 0.2,
-              shadowRadius: 1,
+                shadowColor: 'gray',
+                shadowOffset: { width: 0, height: 2 },
+                shadowOpacity: 0.2,
+                shadowRadius: 1,
             },
             android: {
-              elevation: 1,
+                elevation: 1,
             },
-          }),
+        }),
         borderColor: 'gray',
-        borderRadius:0,
+        borderRadius: 0,
     }
 });
