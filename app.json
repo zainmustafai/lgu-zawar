@@ -5,6 +5,17 @@
       "bundler": "metro"
     },
     "name": "lgu",
-    "slug": "lgu"
+    "slug": "lgu",
+    "extra": {
+      "eas": {
+        "projectId": "8b3d1b21-316b-4785-9f3c-adcad4ef3547"
+      }
+    },
+    "android": {
+      "package": "com.zforzain2000.lgu"
+    },
+    "ios": {
+      "bundleIdentifier": "com.zforzain2000.lgu"
+    }
   }
 }

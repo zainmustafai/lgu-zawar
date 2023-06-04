@@ -39,7 +39,7 @@ const Home = () => {
             secureTextEntry
           />
           {/* SIGN IN BUTTON */}
-          <Link href={'/announcements'} style={styles.button}>
+          <Link href={'/profile'} style={styles.button}>
             SING IN
           </Link>
         </View>

@@ -14,7 +14,7 @@ export default FlexBetween
 const styles = StyleSheet.create({
     main: {
         padding: 20,
-        backgroundColor: '#fff',
+        // backgroundColor: tra,
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',

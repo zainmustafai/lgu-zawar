@@ -4,54 +4,47 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default () => {
     return (
-        <Tabs>
-            <Tabs.Screen name="announcements"
-                options={{
-                    tabBarLabel: 'Announcements',
-                    tabBarActiveBackgroundColor: '#FF3F00',
-                    tabBarAllowFontScaling: true,
-                    tabBarIcon: () => {
-                        return <Icon name="home" size={20} />
-                    }
-                }}
-            />
+        <Tabs
+        >
             <Tabs.Screen name="profile"
                 options={{
-                    tabBarLabel: 'Profile',
-                    tabBarActiveBackgroundColor: '#FF3F00',
+                    tabBarLabel: '',
+                    tabBarActiveBackgroundColor: '#eee',
                     tabBarAllowFontScaling: true,
                     tabBarIcon: () => {
-                        return <Icon name="user" size={30} />
+                        return <Icon name="home" size={30} color={'#00AC5F'} />
                     }
 
                 }} />
-            <Tabs.Screen name="challans"
+
+            <Tabs.Screen name="announcements"
                 options={{
-                    tabBarLabel: 'Challans',
-                    tabBarActiveBackgroundColor: '#FF3F00',
+
+                    tabBarLabel: '',
+                    tabBarActiveBackgroundColor: '#eee',
                     tabBarAllowFontScaling: true,
                     tabBarIcon: () => {
-                        return <Icon name="file" size={20} />
+                        return <Icon name="bell" size={25} color={'#00AC5F'} />
                     }
                 }}
             />
             <Tabs.Screen name="attendance"
                 options={{
-                    tabBarLabel: 'Attendance',
-                    tabBarActiveBackgroundColor: '#FF3F00',
+                    tabBarLabel: '',
+                    tabBarActiveBackgroundColor: '#eee',
                     tabBarAllowFontScaling: true,
                     tabBarIcon: () => {
-                        return <Icon name="calendar" size={20} />
+                        return <Icon name="calendar" size={25} color={'#00AC5F'} />
                     }
                 }}
             />
             <Tabs.Screen name="Teacherdashboard"
                 options={{
-                    tabBarLabel: 'Teacher',
-                    tabBarActiveBackgroundColor: '#FF3F00',
+                    tabBarLabel: '',
+                    tabBarActiveBackgroundColor: '#eee',
                     tabBarAllowFontScaling: true,
                     tabBarIcon: () => {
-                        return <Icon name="dashboard" size={20} />
+                        return <Icon name="dashboard" size={25} color={'#00AC5F'} />
                     }
                 }}
             />

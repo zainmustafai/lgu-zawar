@@ -1,5 +1,7 @@
 import { View, Text, StyleSheet,TouchableOpacity } from 'react-native'
 import React from 'react'
+import FlexBetween from '../../components/FlexBetween/FlexBetween'
+import Card from '../../components/Card/Card'
 
 const Challans = () => {
   return (
@@ -33,21 +35,10 @@ const Challans = () => {
           <Text>90 000</Text>
         </View>
       </View>
-
-      {/* BOTTOM LINKS CONTAINER */}
-      <View style={styles.linksContainer}>
-        <TouchableOpacity style={styles.link} >
-          <Text>
-            Print Installment
-          </Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.link} >
-          <Text >
-            Print Fee
-          </Text>
-        </TouchableOpacity>
-      </View>
+      <FlexBetween>
+        <Card title={"Print Installment"}  colorCode={"#588EFF"}/>
+        <Card title={"Print Full Fee"} colorCode={"#DF7D00"} />
+      </FlexBetween>
     </View>
   )
 }
@@ -91,3 +82,20 @@ const styles = StyleSheet.create({
   },
 
 })
+
+
+
+// {/* BOTTOM LINKS CONTAINER */}
+// <View style={styles.linksContainer}>
+// <TouchableOpacity style={styles.link} >
+//   <Text>
+//     Print Installment
+//   </Text>
+// </TouchableOpacity>
+
+// <TouchableOpacity style={styles.link} >
+//   <Text >
+//     Print Fee
+//   </Text>
+// </TouchableOpacity>
+// </View>

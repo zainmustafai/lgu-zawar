@@ -22,19 +22,7 @@ const Profile = () => {
         <TextInput placeholder='Address' style={styles.input} />
         <TextInput placeholder='Emergency' style={styles.input} />
         <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-        <TextInput placeholder='Blood Group' style={styles.input} />
-      </ScrollView>
+       </ScrollView>
     </View>
   )
 }
@@ -43,7 +31,7 @@ export default Profile
 
 const styles = StyleSheet.create({
   mainContainer: {
-    backgroundColor: 'green',
+    backgroundColor: '#00AC60',
     flex: 1,
 
   },

@@ -10,54 +10,73 @@ const announcementsArray = [
         description: "Lorem ipsum general default text whatever you like wtf wednesday thursday friday.Lorem ipsum general default text whatever you like wtf wednesday thursday friday.",
         time: '3:00',
         stars: 4,
+        colorCode:'#B19EFF'
     },
     {
         title: 'Assignment',
         description: "Lorem ipsum general default text whatever you like wtf wednesday thursday friday.Lorem ipsum general default text whatever you like wtf wednesday thursday friday.",
         time: '3:00',
         stars: 3,
+        colorCode:'#9EFFAB'
     },
     {
         title: 'Quiz #',
         description: "Lorem ipsum general default text whatever you like wtf wednesday thursday friday.Lorem ipsum general default text whatever you like wtf wednesday thursday friday.",
         time: '3:00',
         stars: 4,
+        colorCode:'#B19EFF'
+
     },
     {
         title: 'Quiz 2',
         description: "Lorem ipsum general default text whatever you like wtf wednesday thursday friday.Lorem ipsum general default text whatever you like wtf wednesday thursday friday.",
         time: '3:00',
         stars: 2,
+        colorCode:'#9EFFAB'
+
+
     },
     {
         title: 'Quiz 3',
         description: "Lorem ipsum general default text whatever you like wtf wednesday thursday friday.Lorem ipsum general default text whatever you like wtf wednesday thursday friday.",
         time: '3:00',
         stars: 4,
+        colorCode:'#B19EFF'
+
     },
     {
         title: 'Quiz 4',
         description: "Lorem ipsum general default text whatever you like wtf wednesday thursday friday.Lorem ipsum general default text whatever you like wtf wednesday thursday friday.",
         time: '3:00',
         stars: 3,
+        colorCode:'#9EFFAB'
+
+
     },
     {
         title: 'Quiz 5',
         description: "Lorem ipsum general default text whatever you like wtf wednesday thursday friday.Lorem ipsum general default text whatever you like wtf wednesday thursday friday.",
         time: '3:00',
         stars: 4,
+        colorCode:'#B19EFF'
+
     },
     {
         title: 'Quiz 6',
         description: "Lorem ipsum general default text whatever you like wtf wednesday thursday friday.Lorem ipsum general default text whatever you like wtf wednesday thursday friday.",
         time: '3:00',
         stars: 4,
+        colorCode:'#9EFFAB'
+
+
     },
     {
         title: 'Quiz 7',
         description: "Lorem ipsum general default text whatever you like wtf wednesday thursday friday.Lorem ipsum general default text whatever you like wtf wednesday thursday friday.",
         time: '3:00',
         stars: 4,
+        colorCode:'#B19EFF'
+        
     },
 ]
 
@@ -91,6 +110,7 @@ const announcements = () => {
                         description={item.description}
                         time={item.time}
                         stars={item.stars}
+                        colorCode={item.colorCode}
                     />
                 })
             }
